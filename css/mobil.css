@@ -1,0 +1,142 @@
+@media screen and (max-width:1200px){
+    .navigation2{
+        display: none;
+    }
+    .navigation3{
+        display: block;
+        font-size: 30px;
+        list-style-type: none;
+        padding-left: 50px;
+        position: absolute;
+        bottom: 10px;
+    }
+    .navigation3 a{
+        color: #0277BD;
+        margin-left: 5px;
+    }
+
+    /*Login*/
+
+    .login{
+        float: right;
+        padding-right: 20px;
+        text-decoration: none;
+
+    }
+    .LS-droppdown{
+        background-color: #424242;
+        width: 400px;
+        /*position: absolute;*/
+        left: 65%;
+
+    }
+    .navigation2 .login a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    .login-menu{
+        border-radius: 0;
+        margin-top: -4px;
+    }
+    input {
+        width:150px;
+        display:block;
+        border: 1px solid #999;
+        height: 35px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mobil-nav{
+        display: block;
+        margin-left: 20px;
+        margin-top: 24px;
+    }
+}
+@media screen and (max-width:1000px){
+    .LS-droppdown{
+        left: 52%;
+
+    }
+    .mobil-nav{
+        display: block;
+        margin-left: 20px;
+        margin-top: 24px;
+    }
+}
+@media screen and (max-width:360px){
+    .navigation3{
+        width: 300px;
+        font-size: 22px;
+        list-style-type: none;
+        left: 60px;
+        position: absolute;
+        bottom: 34px;
+    }
+    .login{
+        float: left;
+        padding-right: 20px;
+        text-decoration: none;
+        bottom: 250px;
+
+    }
+    .signup{
+        float: left;
+        padding-right: 20px;
+        text-decoration: none;
+        margin-top: 20px;
+        top: 250px;
+    }
+    .LS-droppdown{
+        background-color: #424242;
+        width: 265px;
+        left: -60px;
+        position: absolute;
+        z-index: 9999;
+
+    }
+    input {
+        width:150px;
+        display:block;
+        border: 1px solid #999;
+        height: 35px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .nav-logo{
+        display: block;
+        margin-left: 20px;
+        margin-top: 18px;
+    }
+    .undermenu{
+        margin-left: 20px;
+    }
+
+    /*contact*/
+
+    .dark-matter{
+        width: 300px;
+        right: 40px;
+
+    }
+    input {
+        width:150px;
+        display:block;
+        border: 1px solid #999;
+        height: 35px;
+        margin: 0px;
+        padding-left: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    span{
+        
+        
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 7px;
+        
+    }
+
+}

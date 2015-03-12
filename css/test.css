@@ -5,6 +5,7 @@
 }
 .logo h1{
     float: left;
+    margin-top: 25px;
 }
 
 .backgroundheader{
@@ -17,6 +18,12 @@
 
 .container{
     border-bottom: red;
+}
+.nav-logo{
+    display: none;
+}
+.navigation3{
+    display: none;
 }
 .nav-shado{
     box-shadow: 0px 10px 15px #424242;
