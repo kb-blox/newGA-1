@@ -176,7 +176,7 @@ session_start();
                         <script src="js/external/githubIcons.js"></script>
                         <script src="js/external/fusionAd.js"></script>
 
-                        <div class='navigation3 col-sm-10'>
+                        <div class='login-mobil col-sm-10'>
                             <div class="login LS-dropdown">
                                 <?php
                                 include 'showCart.php';
