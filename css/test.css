@@ -574,43 +574,39 @@ input {
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
-}
-.dark-matter h1 {
-    padding: 0px 0px 10px 40px;
+    
+}/*
+*/.dark-matter h1 {
+    padding: 10px 0px 10px 40px;
+    
     display: block;
     border-bottom: 1px solid #444;
-    margin: -10px -30px 30px -30px;
+    margin: -20px -30px 30px -30px;
+    background-color: #9E9E9E;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
-.dark-matter h1>span {
-    display: block;
+.dark-matter h1 p{
     font-size: 18px;
+    padding-top: 5px;
 }
 .dark-matter label {
     display: block;
     margin: 0px 0px 0px; 
 }
-.dark-matter label>span {
-    float: left;
-    width: 20%;
-    text-align: right;
-    padding-right: 10px;
-    font-weight: bold;
-}
-.dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter select {
+.contact {
     border: none;
     color: #525252;
     height: 25px;
-    line-height:15px;
     margin-bottom: 16px;
-    margin-right: 6px;
-    margin-top: 2px;
-    outline: 0 none;
+    margin-left: 100px;
+    margin-top: -45px;
     padding: 5px 0px 5px 5px;
     width: 70%;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px;
     background: #DFDFDF;
 }
 .dark-matter select {
@@ -620,40 +616,31 @@ input {
     width: 70%;
     height: 35px;
     color: #525252;
-    line-height: 25px;
-}
-.dark-matter textarea{
+    margin-bottom: 16px;
+    margin-left: 100px;
+    margin-top: -45px;
+    position: absolute;
+}/*
+*/.dark-matter textarea{
     height:100px;
     padding: 5px 0px 0px 5px;
     width: 70%;
-}
-.dark-matter .button {
+   
+}/*
+*/.dark-matter .button {
     background-color: #E0E0E0;
     color:#0277BD;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
     border: 2px solid #999;
-    margin-left: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
     height: 30px;
-}
-#button{
-    float: left;
-    width: 20%;
-
-    text-align: right;
-    padding-right: 10px;
-    margin-top: 10px;
-    font-weight: bold;
 }
 .dark-matter .button:hover {
     color: #212121;
     background-color: #EBEBEB;
-}
-#check{
-    border: 1px solid #999;
-    width: 20px;
-    height: 20px;
 }
 
 

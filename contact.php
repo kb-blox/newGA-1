@@ -175,7 +175,7 @@ session_start();
                         <script src="js/external/githubIcons.js"></script>
                         <script src="js/external/fusionAd.js"></script>
 
-                        <div class='navigation3 col-sm-10'>
+                        <div class='login-mobil col-sm-10'>
                             <div class="login LS-dropdown">
                                 <?php
                                 include 'showCart.php';
@@ -225,25 +225,25 @@ session_start();
 
             <div class="container Con">
                 <form action="" method="post" class="col-sm-12 dark-matter">
-                    <h1>Welcome 
-                        <span>Here can you fill in, if you have a question or whant to refund!</span>
+                    <h1><b>Welcome </b>
+                        <p>Here can you fill in, if you have a question or whant to refund!</p>
                     </h1>
                     <label>
-                        <span>Your Name :</span>
-                        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+                        <p>Your Name :</p>
+                        <input class="contact" type="text" name="name" placeholder="Your Full Name" />
                     </label>
 
                     <label>
-                        <span>Your Email :</span>
-                        <input id="email" type="email" name="email" placeholder="Your Email Address" />
+                        <p>Your Email :</p>
+                        <input class="contact" type="email" name="email" placeholder="Your Email Address" />
                     </label>
 
                     <label>
-                        <span>Message :</span>
-                        <textarea id="message" name="message" placeholder="Your message/refund explanation to Us"></textarea>
+                        <p>Message :</p>
+                        <textarea class="contact" name="message" placeholder="Your message/refund explanation to Us"></textarea>
                     </label> 
                     <label>
-                        <span>Refund :</span><select name="selection">
+                        <p>Refund :</p><select name="selection" >
                             <option value="placeholder">Which article of clothing, you whant to refund</option>
                             <option value="Hoodie">Hoodie</option>
                             <option value="T-shirt">T-shirt</option>
@@ -251,10 +251,10 @@ session_start();
                             <option value="Shorts">Shorts</option>
                             <option value="Jeans">Jeans</option>
                             <option value="Trousers">Trousers</option>
-                        </select>
+                       
                     </label>    
                     <label>
-                        <span id="button"></span> 
+                        
                         <input type="button" class="button" value="Send" /> 
                     </label>    
                 </form>
